@@ -1,1 +1,1 @@
-![Image](/cse15l-lab-reports/C:\Users\Sonia\Pictures\week0)
+![Image](/cse15l-lab-reports/week0)
