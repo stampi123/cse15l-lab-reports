@@ -1,11 +1,10 @@
 # Hello incoming CS15L students! Here is your cheat sheet for remote access (FOR WINDOWS)
 
-First, instal vs code on your personal device by going to [Link] (https://code.visualstudio.com/)
+First, instal vs code on your personal device by going to  (https://code.visualstudio.com/)
 Next, install OpenSSH in the apps section of settings through the optional features button
-After, step up your CS account and password at [Link] (https://sdacs.ucsd.edu/~icc/index.php)
+After, step up your CS account and password at (https://sdacs.ucsd.edu/~icc/index.php)
 Next, try signing into the remote server using ssh cs15lfa22zz@ieng6.ucsd.edu on your terminal  (it may take a while for the password to work) 
-You should see something that looks like this after logging in ![Image] login.png
-
+You should see something that looks like this after logging in ![login](login.png) 
 Now you can start trying out some commands!
 Some to start with are:
 cd~
