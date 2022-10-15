@@ -37,7 +37,7 @@ class Handler implements URLHandler {
             Server.start(port, new Handler());
         }
     }
-    ```
+ ```
     [Add] 
     In this image the methods that are called are the handleRequest method that takes in the URL and uses if statement for the different inputs. Since this one is add, the input string gets added to the "s" arraylist and is stored for use later. 
     [Add again]
