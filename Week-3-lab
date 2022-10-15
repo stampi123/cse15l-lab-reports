@@ -56,16 +56,16 @@ assertArrayEquals(new int[]{ 6, 5, 4, 3 }, input1);
     assertEquals(3.0, output, 0);
 
 
-3. int[] input3 = { 0, 1, 2, 3 };
-assertArrayEquals(new int[]{ 3, 2, 1, 0 }, ArrayExamples.reversed(input3));
-
 Symptoms:
 1. Index 3 is supposed to be 3 but is 6
 2. Should return 3.0 but returns 2.75
-3. Index 0 is 0 instead of 3
+
 
 Bugs/reasoning:
-1. 
+1. The bug is here: arr[i] = arr[arr.length - i - 1];
+Here the values are only being shifted rather than swaped and the first element gets overwritten which then messes up the rest of the swap. 
+2.The bug is here: if(num != lowest) { sum += num; }
+This gets rid of all lowest numbers including repeats which gives the wrong value. 
 
 
     
