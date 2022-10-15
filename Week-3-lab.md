@@ -38,11 +38,11 @@ class Handler implements URLHandler {
         }
     }
  ```
-   ![Add](add1.png)
+   ![Add](add1.html)
     In this image the methods that are called are the handleRequest method that takes in the URL and uses if statement for the different inputs. Since this one is add, the input string gets added to the "s" arraylist and is stored for use later. 
-    ![Add again](add2.png)
+    ![Add again](add2.html)
     This image also uses the add function which calles the handleRequest method that takes in the URL and get's the value of what we are adding by checking the add command and then spliting the url to get the string we are meant to add. It is then added to the arraylist and stored like the last image.
-    ![Query](query.png)
+    ![Query](query.html)
     This image is using search which calls handleRequest again to process the URL and then goes into the Search if-statement that comapres the value of the string to search with all other values in the list.
    >
    ## Part 2
