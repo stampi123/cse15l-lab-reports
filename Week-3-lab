@@ -46,7 +46,28 @@ class Handler implements URLHandler {
     This image is using search which calls handleRequest again to process the URL and then goes into the Search if-statement that comapres the value of the string to search with all other values in the list.
    >
    ## Part 2
-   
+   Failure inducing Inputs:
+   1. int[] input1 = { 3, 4, 5, 6 };
+ArrayExamples.reverseInPlace(input1);
+assertArrayEquals(new int[]{ 6, 5, 4, 3 }, input1);
+
+2.double[] input2 = { 5.0, 1.0, 2.0, 4.0, 1.0 };
+    double output = ArrayExamples.averageWithoutLowest(input2);
+    assertEquals(3.0, output, 0);
+
+
+3. int[] input3 = { 0, 1, 2, 3 };
+assertArrayEquals(new int[]{ 3, 2, 1, 0 }, ArrayExamples.reversed(input3));
+
+Symptoms:
+1. Index 3 is supposed to be 3 but is 6
+2. Should return 3.0 but returns 2.75
+3. Index 0 is 0 instead of 3
+
+Bugs/reasoning:
+1. 
+
+
     
   
     
