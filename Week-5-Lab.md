@@ -4,7 +4,7 @@ The command that I chose to do more research on was 'grep'. I found 3 different 
 > 
 The -i option ignores the case for the word to be searched 
 > examples:
-> ![first] (i-1.PNG)
+> ![first](i-1.PNG)
 
 ## grep -w
 >
