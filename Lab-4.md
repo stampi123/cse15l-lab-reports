@@ -8,7 +8,7 @@
   ce
   ![4](4.PNG)
   base<ESC>
- > ![5](5.PNG)
+ ![5](5.PNG)
   n.:wq
   
 > # Part 2
