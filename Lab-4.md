@@ -10,6 +10,7 @@
   base<ESC>
   ![5](5.PNG)
   n.:wq
+  
 > # Part 2
 > Time using scp: 5:12
 > Time using vim: 3:57
