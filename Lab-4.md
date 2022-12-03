@@ -4,7 +4,7 @@
 > /start<Enter>cebase<Esc>n.n.n.:wq (n. is for repeating the exact same past commands)
 > ![start](1.PNG)
   /start
-  ![3](3.PNG
+  ![3](3.PNG)
   ce
   ![4](4.PNG)
   base<ESC>
