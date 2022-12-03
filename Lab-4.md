@@ -2,7 +2,7 @@
 > # Part 1
 > The list of commands I would press to change the word start to base usig vim:
 > /start<Enter>cebase<Esc>n.n.n.:wq
-> /start (serach for start) ![start] 1.PNG 
+> /start (serach for start) ![start](1.PNG) 
 > # Part 2
 > Time using scp: 5:12
 > Time using vim: 3:57
