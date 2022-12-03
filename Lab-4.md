@@ -2,9 +2,14 @@
 > # Part 1
 > The list of commands I would press to change the word start to base usig vim:
 > /start<Enter>cebase<Esc>n.n.n.:wq (n. is for repeating the exact same past commands)
-> ![start](1.PNG) 
-  ![3](3.PNG)
+> ![start](1.PNG)
+  /start
+  ![3](3.PNG
+  ce
   ![4](4.PNG)
+  base<ESC>
+  ![5](5.PNG)
+  n.:wq
 > # Part 2
 > Time using scp: 5:12
 > Time using vim: 3:57
