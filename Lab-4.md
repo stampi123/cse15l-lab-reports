@@ -1,7 +1,7 @@
 ## Lab Report 4
 > # Part 1
 > The list of commands I would press to change the word start to base usig vim:
-> /start,<enter>,ce,b,a,s,e,<Esc>,n,.,n,.,n,.,:,w,q
+> /start<Enter>cebase<Esc>n.n.n.:wq
 > # Part 2
 > Time using scp: 5:12
 > Time using vim: 3:57
